@@ -16,12 +16,12 @@ class SearchBar extends Component {
   handleSubmit(event) {
      event.preventDefault();
      this.props.onSubmit(this.state.term)
-     this.setState({term: ""});
+     this.setState({term:""})
   }
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className="navbar-form navbar-left">
+      <form onSubmit={this.handleSubmit} className="navbar-form navbar-left trythis">
         <div className="form-group">
           <input onChange={this.handleChange} type="text" value={this.state.term} className="form-control" placeholder="Search"/>
         </div>

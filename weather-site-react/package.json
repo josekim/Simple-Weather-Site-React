@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "openweather-apis": "^3.3.2",
+    "openweathermap": "^1.0.0",
+    "openweathermapapi": "^1.0.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "0.9.5"
